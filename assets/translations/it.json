@@ -1,0 +1,26 @@
+{
+  "home": {
+    "counter_value": "Valore counter:"
+  },
+  "languages": {
+    "en": {
+      "name": "Inglese"
+    },
+    "it": {
+      "name": "Italiano"
+    }
+  },
+  "brightness": {
+    "light": {
+      "name": "Chiaro"
+    },
+    "dark": {
+      "name": "Scuro"
+    }
+  },
+  "anime": "Anime",
+  "system": "Sistema",
+  "language": "Lingua",
+  "theme": "Tema",
+  "navigate": "Naviga"
+}

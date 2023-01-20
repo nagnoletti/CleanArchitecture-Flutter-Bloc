@@ -1,0 +1,52 @@
+name: bloc_template
+description: Bloc template
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ^3.3.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_translate: 4.0.3
+  intl: 0.17.0
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+  go_router: ^5.1.0
+
+  domain:
+    path: ./lib_domain
+  data:
+    path: ./lib_data
+  service:
+    path: ./lib_service
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.1
+  build_runner: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/translations/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
+        - asset: fonts/Lato-Italic.ttf
+          style: italic
+

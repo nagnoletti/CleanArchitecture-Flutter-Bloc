@@ -1,0 +1,26 @@
+{
+  "home": {
+    "counter_value": "Counter value:"
+  },
+  "languages": {
+    "en": {
+      "name": "English"
+    },
+    "it": {
+      "name": "Italian"
+    }
+  },
+  "brightness": {
+    "light": {
+      "name": "Light"
+    },
+    "dark": {
+      "name": "Dark"
+    }
+  },
+  "anime": "Anime",
+  "system": "System",
+  "language": "Language",
+  "theme": "Theme",
+  "navigate": "Navigate"
+}
