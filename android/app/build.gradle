@@ -67,10 +67,13 @@ android {
         dev {
             dimension 'env'
             versionNameSuffix '-dev'
+            applicationIdSuffix ".dev"
+            resValue 'string', 'app_name', 'BlocTemplate-dev'
         }
 
         prod {
             dimension 'env'
+            resValue 'string', 'app_name', 'BlocTemplate'
         }
     }
 
