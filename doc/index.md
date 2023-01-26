@@ -1,6 +1,5 @@
-# Flutter: Clean BLoC-based Architecture
+# Flutter Clean Architecture docs
 ## Index
-Index:
 - [Architecture](architecture.md)
 - [Libraries](libraries.md)
 - [Flavorize](flavorize/flavorize.md)
